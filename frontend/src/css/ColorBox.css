@@ -1,0 +1,43 @@
+.color-box {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.color-box:hover {
+  cursor: pointer;
+}
+
+/* Small devices (landscape phones, 375px and up) */
+@media (max-width: 375px) {
+}
+
+/* Small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) {
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Extra extra large devices (larger desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  .color-box {
+    width: 35px;
+    height: 35px;
+  }
+}

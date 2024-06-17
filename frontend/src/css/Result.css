@@ -1,0 +1,115 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.result-header {
+  width: 100%;
+  color: black;
+}
+
+.result-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.test-result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  color: black;
+  gap: 10px;
+}
+
+.action-btn {
+  height: auto;
+  font-size: auto;
+  padding: 10px;
+}
+
+@media (max-width: 375px) {
+  .result-header {
+    font-size: 1.5rem;
+  }
+
+  .test-result-container span {
+    font-size: 0.9rem;
+  }
+
+  .action-btn {
+    width: 90px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .result-header {
+    font-size: 1.75rem;
+  }
+  .action-btn {
+    width: 100px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+  .result-header {
+    font-size: 1.75rem;
+  }
+  .action-btn {
+    width: 105px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .result-header {
+    font-size: 2rem;
+  }
+  .action-btn {
+    width: 115px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .result-header {
+    font-size: 2.5rem;
+  }
+  .action-btn {
+    width: 125px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .result-header {
+    font-size: 2.75rem;
+  }
+  .action-btn {
+    width: 135px;
+  }
+}
+
+/* Extra extra large devices (larger desktops, 1600px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .result-header {
+    font-size: 3rem;
+  }
+  .test-result-container span {
+    font-size: 1.75rem;
+  }
+
+  .action-btn {
+    width: 150px;
+  }
+}

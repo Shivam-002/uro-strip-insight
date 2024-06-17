@@ -1,0 +1,42 @@
+.custom-dragger {
+  max-width: 80%;
+}
+
+.upload-text {
+  font-size: 1rem;
+}
+
+.upload-hint {
+  font-size: 1rem;
+  color: rgb(165, 165, 165);
+}
+
+@media (max-width: 375px) {
+  .upload-text {
+    font-size: 0.8rem;
+  }
+  .upload-hint {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Extra extra large devices (larger desktops, 1600px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+}

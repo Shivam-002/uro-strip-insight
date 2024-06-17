@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", "Mukta", "Inter", "Noto Sans", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .app {
+    height: 100vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .app {
+    height: 100vh;
+  }
+}
+
+/* Extra extra large devices (larger desktops, 1600px and up) */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .app {
+    height: 100vh;
+  }
+}
